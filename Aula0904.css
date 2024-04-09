@@ -1,0 +1,16 @@
+body {
+    background-image: url('../IMG/Wallpaper_Solo_Leveling.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify ;
+    
+
+}
+
+h1 {
+    background-color: brown;
+}
+
+section {
+    height: 100vh;
+}

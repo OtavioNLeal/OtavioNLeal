@@ -1,0 +1,25 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: silver;
+}
+
+table * {
+    background-color: #94618E;
+    text-align: center;
+    width: 400px;
+   }
+   p {
+    background-color: #F4DECB;
+    color: black;
+   }
+
+   article p {
+        background-color: #f8b77f;
+        color: black;
+   }

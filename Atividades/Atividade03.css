@@ -1,0 +1,25 @@
+body {
+    background-image: url('../IMG/Vale_do_Fim.PNG.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    
+}
+
+h1 {
+    color: coral;
+}
+
+section {
+    height: 200vh;
+}
+
+h2 {
+    color: crimson;
+}
+
+p {
+    color: sandybrown;
+    background-color: gray;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.container {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.container2 {
+    padding: 0px 500px;
+}
+
+.box {
+    font-family:Lexend;
+}
+
+.box1 {
+ font-size: 90px;
+ color: brown;
+ background-color: black;
+}
+
+.box2 {
+    font-size: 50px;
+    color: whitesmoke;
+    background-color: silver;
+
+}
+
+.box3 {
+    font-size: 30px;
+    border: solid;
+}
+
+.Acri1 {
+    background-image: url(../Aula15/img/paint-1.png);
+    background-color: bisque;
+}

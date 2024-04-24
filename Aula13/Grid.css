@@ -1,0 +1,44 @@
+.container {
+    background-color: 0;
+    height: 100vh;
+    color: azure;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    /*grid-template-rows: repeat(4, 1fr);*/
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "header header header header header header"
+        "aside aside main main main main"
+        "aside aside main main main main"
+        "rodolfinho rodolfinho rodolfinho rodolfinho a a"
+        "rodolfinho rodolfinho rodolfinho rodolfinho a a"
+        "Big Big Big Big Big Big"
+        ;
+        gap: 5px ;
+        
+}
+.box1 {
+    grid-area: header;
+    background-color: blue;
+}
+.box2 {
+    grid-area: aside;
+    background-color: crimson;
+}
+.box3 {
+    grid-area: main;
+    background-color: forestgreen;
+}
+.box4 {
+    grid-area: rodolfinho;
+    background-color: orange;
+}
+.box5 {
+    grid-area: a;
+    background-color: gold;
+}
+.box6 {
+    grid-area: Big;
+    background-color: rgb(183, 0, 255);
+}

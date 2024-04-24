@@ -1,0 +1,34 @@
+.container {
+    background-color: rebeccapurple;
+    height: 50vh;
+    color: azure;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    /*grid-template-rows: repeat(4, 1fr);*/
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+        " header header header header"
+        "aside main main main"  
+        "aside main main main"  
+        "rodolfinho rodolfinho rodolfinho rodolfinho"  
+        ;
+        gap: 5px;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: blue;
+}
+.box2 {
+    grid-area: aside;
+    background-color: crimson;
+}
+.box3 {
+    grid-area: main;
+    background-color: forestgreen;
+}
+.box4 {
+    grid-area: rodolfinho;
+    background-color: orange;
+}

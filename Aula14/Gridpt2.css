@@ -1,0 +1,43 @@
+.container {
+    height: 50vh;
+    display: grid;
+    font-size: 2rem;
+    color: rgb(255, 253, 253);
+    
+    grid-template-columns: repeat(4, 1fr) ; 
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "header header header header"
+        "aside aside aside darea"  
+        "main main main main"  
+        "header header header header"
+    ;
+}
+
+   /* place-items: center center ;
+
+    justify-content: center;
+    align-content: end;
+    place-items: center center ;
+
+}
+
+.box {
+    background-color: brown;
+}*/
+.box1 {
+    grid-area: header;
+    background-color: darkolivegreen;
+}
+.box2 {
+    grid-area: aside;
+    background-color: darkgoldenrod;
+}
+.box3 {
+    grid-area: main;
+    background-color: sienna;
+}
+.box4 {
+    grid-area: darea;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container {
+    border: 2px solid black;   
+    margin: 5px;    
+    overflow: auto ;
+    padding: 10px;
+}
+
+.container img{
+    float: left;
+}
+
+.div2 {
+    border:solid 2px darkblue;
+}
+
+.p1 {
+    clear: right;
+    color: yellowgreen;
+    background-color: sienna;
+}
+
+.p2 {
+    clear: left;
+    color: crimson;
+    background-color:darkblue;
+}

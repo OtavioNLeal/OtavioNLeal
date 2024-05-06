@@ -4,15 +4,15 @@ body {
     background-size: cover;
     background-attachment: fixed;
     text-align: justify;
-    
+
 }
 
 h1 {
     color: coral;
 }
 
-section {
-    height: 200vh;
+article {
+    height: vh;
 }
 
 h2 {
@@ -22,4 +22,5 @@ h2 {
 p {
     color: sandybrown;
     background-color: gray;
+    line-height: 200%;
 }
